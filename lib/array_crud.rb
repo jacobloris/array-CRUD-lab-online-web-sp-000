@@ -3,12 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  dog_breeds = [husky, lab, aussie, shepherd]
+ [husky, lab, aussie, shepherd]
 end
 
 def add_element_to_end_of_array(array, element)
-  dog_breeds = [husky, lab, aussie, shepherd]
-   << "greyhound"
+  
 end
 
 def add_element_to_start_of_array(array, element)
